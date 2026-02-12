@@ -1,0 +1,79 @@
+{% doc %}
+  Renders product labels including sale badges, new product labels, stock alerts, and custom labels. Displays contextual information to help customers understand product status and promotions.
+
+  @param {object} [product] - The product object to generate labels for
+  @param {string} [origin] - Context origin, use 'productitem' for product grid items to enable advanced stock calculations
+
+  @example
+  {% render 'product-labels', product: product %}
+  @example
+  {% render 'product-labels', product: product, origin: 'productitem' %}
+{% enddoc %}
+
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign custom_label_namespace = settings.product_custom_label | split: '.' | first
+  assign custom_label_key = settings.product_custom_label | split: '.' | last
+  assign custom_label = product.metafields[custom_label_namespace][custom_label_key]
+  assign total_stock = 0
+
+  if origin == 'productitem'
+    for variant in product.variants
+      if variant.matched and variant.inventory_management == 'shopify'
+        assign total_stock = total_stock | plus: variant.inventory_quantity
+      endif
+    endfor
+  endif
+  if total_stock == 0 and current_variant.inventory_management == 'shopify'
+    assign total_stock = current_variant.inventory_quantity
+  endif
+
+  if current_variant.compare_at_price > current_variant.price and settings.show_sale_label
+    assign show_sale_label = true
+    if settings.sale_label_price == 'percentage'
+      assign discount = current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price
+      if discount > 1
+        assign discount = discount | round
+      else
+        assign discount = discount | round: 1
+      endif
+      if discount == 100 and product.price != 0
+        assign discount = discount | minus: 0.1
+      endif
+    elsif settings.sale_label_price == 'amount'
+      assign discount = current_variant.compare_at_price | minus: current_variant.price | money
+    endif
+  endif
+
+  if settings.show_new_label
+    assign new_label_seconds = settings.new_label_max_days | times: 86400
+    assign now_seconds = 'now' | date: '%s' | plus: 0
+    assign published_seconds = product.published_at | date: '%s' | plus: 0
+    assign product_age_seconds = now_seconds | minus: published_seconds
+    if product_age_seconds <= new_label_seconds
+      assign show_new_label = true
+    endif
+  endif
+-%}
+
+<span class="s1lb label{% if settings.button_style != 'solid' %} plain{% endif %}">
+  {%- if show_sale_label -%}
+    <span class="overlay-sale">
+      {{- 'product.sale_tag' | t -}}
+      {%- if settings.sale_label_price == 'percentage' -%}
+        &nbsp;-{{ discount }}%
+      {%- elsif settings.sale_label_price == 'amount' -%}
+        &nbsp;-{{ discount -}}
+      {%- endif -%}
+    </span>
+  {%- endif -%}
+  {%- if show_new_label -%}
+    <span>{{ 'product.new_tag' | t }}</span>
+  {%- endif -%}
+  {%- if settings.show_stock_label and total_stock > 0 and total_stock <= settings.stock_label_qty -%}
+    <span>{{ 'product.stock_tag' | t }}</span>
+  {%- endif -%}
+  {%- if custom_label != blank -%}
+    <span>{{ custom_label }}</span>
+  {%- endif %}
+</span>

@@ -1,0 +1,617 @@
+{
+  "sections": {
+    "section_grid_yyCXme": {
+      "type": "section-grid",
+      "blocks": {
+        "image_UwVfdj": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "text-start",
+            "cols": 1,
+            "rows": 1,
+            "title": "<h3>Beauty</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "secondary link",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_wQVVFN": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 5,
+            "color_palette": "scheme-1",
+            "text_position": "align-bottom text-start",
+            "cols": 1,
+            "rows": 2,
+            "title": "<h4><strong>New in</strong></h4><h1>Earbuds</h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_zrQRwD": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "text-start",
+            "cols": 2,
+            "rows": 2,
+            "title": "",
+            "title_underline_style": "gradient",
+            "text": "<h4>New in</h4><h1>Fashion</h1>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": true,
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": true,
+            "look_label_text": "Shop the look"
+          }
+        },
+        "image_Mc883t": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "text-start",
+            "cols": 1,
+            "rows": 1,
+            "title": "<h3>Unique gifts</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "secondary link",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_UwVfdj",
+        "image_wQVVFN",
+        "image_zrQRwD",
+        "image_Mc883t"
+      ],
+      "settings": {
+        "number_of_columns": "4",
+        "height": "size-xs",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1653391228084c834a": {
+      "type": "section-collection-list",
+      "settings": {
+        "image_ratio": "square",
+        "fill_images": true,
+        "layout": "slider",
+        "number_of_items": 8,
+        "text_alignment": "start",
+        "title": "<h2>Top selling collections</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "View all collections",
+        "link_url": "/",
+        "button_style": "primary link",
+        "collection_title_size": "p",
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16603001534a9c90c9": {
+      "type": "section-featured-products",
+      "settings": {
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title": "<h2>Back in stock this week</h2>",
+        "title_underline_style": "none",
+        "text": "",
+        "show_link": true,
+        "link_text": "View all products",
+        "link_url": "/",
+        "button_style": "primary link",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": true,
+        "enable_quick_buy_compact": true,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16548652677db3e33c": {
+      "type": "section-gallery",
+      "blocks": {
+        "1654865266c7ee8f93-0": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 20,
+            "color_palette": "scheme-2",
+            "text_position": "center",
+            "title": "<h1>Kids homewear</h1>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Discover now",
+            "link_url": "/",
+            "button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "1654865266c7ee8f93-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "end center",
+            "title": "<h3>Fashion</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "",
+            "link_url": "/",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "308e5b21-d3d8-4fdc-bf57-625316fb3592": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-2",
+            "text_position": "end center",
+            "title": "<h3>Home & living</h3>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "",
+            "link_url": "/",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1654865266c7ee8f93-0",
+        "1654865266c7ee8f93-1",
+        "308e5b21-d3d8-4fdc-bf57-625316fb3592"
+      ],
+      "settings": {
+        "items_layout": "playful-grid",
+        "items_width": 2,
+        "height": "adapt",
+        "width": "boxed",
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_on_hover": false,
+        "show_content_below": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "1/1",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "166030001712c7cb2b": {
+      "type": "section-featured-products",
+      "settings": {
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "aside",
+        "title": "<h2>Most sold this week</h2>",
+        "title_underline_style": "none",
+        "text": "<p>Top 10 most sold this week, next day delivery.</p>",
+        "show_link": true,
+        "link_text": "Top 100 most sold",
+        "link_url": "/",
+        "button_style": "primary link",
+        "enable_quick_buy_desktop": true,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": true,
+        "enable_quick_buy_compact": true,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16620576959f001826": {
+      "type": "section-promo-gallery",
+      "blocks": {
+        "16620576954435429a-0": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 0,
+            "text_position": "text-center",
+            "title": "Plant terrariums",
+            "title_underline_style": "none",
+            "text": "<p>New arrivals: Urban Jungle</p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "16620576954435429a-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 0,
+            "text_position": "text-center",
+            "title": "10% sale on tablets",
+            "title_underline_style": "none",
+            "text": "<p>Extra because you deserve some class. Use code: <strong>TABLET25</strong></p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        },
+        "image_U3EnYz": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity_img": 0,
+            "color_palette": "scheme-1",
+            "overlay_opacity": 100,
+            "text_position": "text-center",
+            "title": "Headphones",
+            "title_underline_style": "none",
+            "text": "<p>Noise cancelling brought to you</p>",
+            "show_link": true,
+            "link_text": "Shop now",
+            "link_url": "/",
+            "button_style": "primary link",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "16620576954435429a-0",
+        "16620576954435429a-1",
+        "image_U3EnYz"
+      ],
+      "settings": {
+        "items_width": 3,
+        "width": "boxed",
+        "height": "16/9",
+        "space_between": 16,
+        "image_zoom": false,
+        "shadow": false,
+        "title_size_blocks": "h3",
+        "layout_mobile": "rows",
+        "height_mobile": "16/9",
+        "spacing_desktop": 30,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_hotspots_qffPmj": {
+      "type": "section-image-hotspots",
+      "blocks": {
+        "hotspot_qAjiEa": {
+          "type": "hotspot",
+          "settings": {
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 72,
+            "position_top": 88,
+            "position_left_mobile": 70,
+            "position_top_mobile": 20
+          }
+        },
+        "hotspot_gj9tCh": {
+          "type": "hotspot",
+          "settings": {
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 82,
+            "position_top": 56,
+            "position_left_mobile": 30,
+            "position_top_mobile": 50
+          }
+        },
+        "hotspot_7Wier6": {
+          "type": "hotspot",
+          "settings": {
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 50,
+            "position_top": 70,
+            "position_left_mobile": 50,
+            "position_top_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_qAjiEa",
+        "hotspot_gj9tCh",
+        "hotspot_7Wier6"
+      ],
+      "settings": {
+        "overlay_opacity": 0,
+        "color_palette": "scheme-6",
+        "hotspot_height": 24,
+        "hotspot_color_palette": "primary",
+        "layout": "right",
+        "height": "1/1",
+        "width": "boxed",
+        "enable_custom_height": true,
+        "custom_height": 420,
+        "text_position": "align-start text-start",
+        "title": "<h1>The perfect gifts</h1>",
+        "title_underline_style": "none",
+        "text": "<p>Every item is crafted with care, providing memorable gifts that last a lifetime.</p>",
+        "show_link": true,
+        "link_text": "Shop now",
+        "link_url": "/",
+        "button_style": "secondary plain",
+        "height_mobile": "adapt",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1653468546493c13a2": {
+      "type": "section-blog-posts",
+      "settings": {
+        "blog": "news",
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title": "<h2>Our latest blog posts</h2>",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "View all",
+        "link_url": "/",
+        "button_style": "primary link",
+        "blog_title_size": "h4",
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": false,
+        "button_style_post": "primary link",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_slideshow_bKaRxG": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_etkUYp": {
+          "type": "slide",
+          "settings": {
+            "layout": "right",
+            "overlay_opacity": 0,
+            "color_palette": "",
+            "text_position": "align-start text-start",
+            "title": "<h2>‘‘The theme is really great and has tons of useful features. The customer support is really helpful and responds without a matter of hours.’’</h2><h4>⭐⭐⭐⭐⭐<br/></h4><h5>Merchant</h5><p>Aug 2, 2024<br/></p>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_first_link": true,
+            "first_link_text": "",
+            "first_link_url": "",
+            "first_button_style": "primary plain",
+            "show_second_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "",
+            "second_button_style": "secondary plain",
+            "show_overlay_link": true,
+            "overlay_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_etkUYp"
+      ],
+      "settings": {
+        "height": "32/9",
+        "width": "boxed",
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "adapt",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16548654705529ee49": {
+      "type": "section-logo-list",
+      "blocks": {
+        "165486547011270c54-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "165486547011270c54-1": {
+          "type": "logo",
+          "settings": {
+            "link": "/"
+          }
+        },
+        "165486547011270c54-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "165486547011270c54-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "165486547011270c54-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "165486547011270c54-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165486547011270c54-0",
+        "165486547011270c54-1",
+        "165486547011270c54-2",
+        "165486547011270c54-3",
+        "165486547011270c54-4",
+        "165486547011270c54-5"
+      ],
+      "settings": {
+        "number_of_items": 6,
+        "text_alignment": "start",
+        "title": "",
+        "title_underline_style": "none",
+        "show_link": true,
+        "link_text": "",
+        "link_url": "",
+        "button_style": "primary plain",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "78836e0a-6131-4f01-afff-dbdd186d0914": {
+      "type": "section-recently-viewed-products",
+      "settings": {
+        "number_of_items": 5,
+        "text_alignment": "start",
+        "title": "<h2>Watched by you:</h2>",
+        "title_underline_style": "none",
+        "enable_quick_buy_desktop": false,
+        "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
+        "enable_quick_buy_qty_selector": true,
+        "enable_color_picker": false,
+        "enable_quick_buy_compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "165346832322a4db6f": {
+      "type": "section-usp-bar",
+      "blocks": {
+        "16534683231021e629-0": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Everything in stock and quick delivery</p>"
+          }
+        },
+        "16534683231021e629-1": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Also <strong>pickup locations</strong> through the whole country</p>"
+          }
+        },
+        "16534683231021e629-2": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>We deliver <strong>CO2 neutral </strong>🍃</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16534683231021e629-0",
+        "16534683231021e629-1",
+        "16534683231021e629-2"
+      ],
+      "settings": {
+        "color_palette": "scheme-1",
+        "layout": "rows",
+        "autoplay": true,
+        "autoplay_seconds": 3,
+        "show_arrows": true,
+        "mobile_layout": "slider",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "section_grid_yyCXme",
+    "1653391228084c834a",
+    "16603001534a9c90c9",
+    "16548652677db3e33c",
+    "166030001712c7cb2b",
+    "16620576959f001826",
+    "section_image_hotspots_qffPmj",
+    "1653468546493c13a2",
+    "section_slideshow_bKaRxG",
+    "16548654705529ee49",
+    "78836e0a-6131-4f01-afff-dbdd186d0914",
+    "165346832322a4db6f"
+  ]
+}

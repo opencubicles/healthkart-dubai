@@ -1,0 +1,50 @@
+{% doc %}
+  Renders a "shop the look" modal container that displays related products in a slider format. Creates placeholder product cards that get populated dynamically with actual products via JavaScript. Includes configurable title, subtitle, and inherits all quick buy functionality from theme settings.
+
+  @example
+  {% render 'shop-the-look-container' %}
+{% enddoc %}
+
+<aside class="m6pn wide" id="add-products-to-banner" aria-hidden="true">
+  <div>
+    <header>
+      {%- unless settings.shop_the_look_title == empty -%}{{ settings.shop_the_look_title }}{%- endunless -%}
+      {%- unless settings.shop_the_look_subtitle == empty -%}
+        <p>{{ settings.shop_the_look_subtitle }}</p>
+      {%- endunless -%}
+    </header>
+    <ul
+      class="l4cl slider"
+      data-items="{{ settings.shop_the_look_items }}"
+      {% if settings.enable_quick_buy_desktop %}
+        data-enable_quick_buy_desktop
+      {% endif %}
+      {% if settings.enable_quick_buy_mobile %}
+        data-enable_quick_buy_mobile
+      {% endif %}
+      {% if settings.enable_quick_buy_qty_selector %}
+        data-enable_quick_buy_qty_selector
+      {% endif %}
+      {% if settings.enable_quick_buy_compact %}
+        data-enable_quick_buy_compact
+      {% endif %}
+      {% if settings.enable_quick_buy_drawer %}
+        data-enable_quick_buy_drawer
+      {% endif %}
+      {% if settings.enable_color_picker %}
+        data-enable_color_picker
+      {% endif %}
+    >
+		{% if request.design_mode %}
+			{%- liquid
+				for i in (1..settings.shop_the_look_items)
+					capture placeholder_int
+						cycle 1, 2, 3, 4, 5, 6
+					endcapture
+					render 'product-item', product: blank, placeholder_int: placeholder_int
+				endfor
+			-%}
+		{% endif %}
+    </ul>
+  </div>
+</aside>

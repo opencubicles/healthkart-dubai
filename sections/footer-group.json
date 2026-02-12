@@ -1,0 +1,67 @@
+{
+  "type": "footer",
+  "name": "t:static_sections.footer.name",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "ee8cf9cf-0a8b-4986-b76c-1016a9510c5b": {
+          "type": "customer_support",
+          "settings": {
+            "title": "Customer support",
+            "title_underline_style": "none",
+            "customer_support_img_width": 220,
+            "customer_support_offset_right": 25,
+            "customer_support_offset_bottom": 0,
+            "extra_customer_support": "<p>Available between 8AM to 8PM. Ready to answer your questions.</p>",
+            "show_phone_link": true,
+            "show_mail_link": true,
+            "show_whatsapp_link": true,
+            "customer_support_offset_right_mobile": 0,
+            "customer_support_offset_bottom_mobile": 0
+          }
+        },
+        "c9a8027f-3a8d-4084-adbf-29db94608977": {
+          "type": "menu",
+          "settings": {
+            "split_menu": false
+          }
+        },
+        "4300adc0-a530-4961-bb5a-0ef06c6e64fb": {
+          "type": "socials_newsletter",
+          "settings": {
+            "title": "Follow us",
+            "show_socials": true,
+            "enable_follow_on_shop": false,
+            "show_newsletter": true,
+            "footer_button_style": "primary plain",
+            "enable_newsletter_terms_checkbox": false,
+            "newsletter_terms_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ee8cf9cf-0a8b-4986-b76c-1016a9510c5b",
+        "c9a8027f-3a8d-4084-adbf-29db94608977",
+        "4300adc0-a530-4961-bb5a-0ef06c6e64fb"
+      ],
+      "settings": {
+        "footer_color": "white",
+        "title_font": "primary",
+        "title_size_blocks": "h5",
+        "bottom_color": "scheme-6",
+        "bottom_img_width": 50,
+        "bottom_img_link": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_follow_on_shop": false,
+        "show_payment_methods": true,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,48 @@
+{% doc %}
+  Renders a cookie consent banner or popup based on theme settings. Provides users with accept/decline options for cookie tracking and data collection compliance (GDPR, CCPA).
+
+  @example
+  {% render 'cookie-banner' %}
+{% enddoc %}
+
+{%- if settings.show_cookiebanner == 'banner' -%}
+  <footer id="cookie-bar">
+    <div id="cookie-inner">
+      <i aria-hidden="true" class="icon-cookie"></i>
+      {%- if settings.cookiebanner_text -%}{{ settings.cookiebanner_text }}{%- endif -%}
+      <p class="link-btn">
+        <a href="./" class="inline close cookie-decline">{{ 'cookiebanner.decline' | t }}</a>
+        <a href="./" class="close cookie-accept{% if settings.button_style == 'inv' %} inv{% endif %}">
+          {{- 'cookiebanner.accept' | t -}}
+        </a>
+      </p>
+    </div>
+  </footer>
+{%- elsif settings.show_cookiebanner == 'popup' -%}
+  <article id="cookie" class="popup-a w690 box" data-title="cookies-popup" data-popup-delay="000">
+    {%- if settings.cookiebanner_image -%}
+      <figure class="aside">
+        <picture>
+          <img
+            src="{{- settings.cookiebanner_image | image_url: width: 290, height: 268 -}}"
+            srcset="{{ settings.cookiebanner_image | image_url: width: 290, height: 268 }} 1x,{{ settings.cookiebanner_image | image_url: width: 580, height: 536 }} 2x"
+            width="290"
+            height="268"
+            alt="{{ settings.cookiebanner_image.alt | default: settings.cookiebanner_title | escape }}"
+            loading="lazy"
+          >
+        </picture>
+      </figure>
+    {%- endif -%}
+    {%- if settings.cookiebanner_title -%}
+      <h2 class="m15">{{ settings.cookiebanner_title }}</h2>
+    {%- endif -%}
+    {%- if settings.cookiebanner_text -%}{{ settings.cookiebanner_text }}{%- endif -%}
+    <p class="link-btn">
+      <a href="./" class="inline close cookie-decline">{{ 'cookiebanner.decline' | t }}</a>
+      <a href="./" class="close cookie-accept{% if settings.button_style == 'inv' %} inv{% endif %}">
+        {{- 'cookiebanner.accept' | t -}}
+      </a>
+    </p>
+  </article>
+{%- endif -%}
