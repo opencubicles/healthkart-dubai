@@ -13,8 +13,8 @@
 #totop a::before {
     background: #00B4B7 !important;
 }
-.swiper-custom-pagination 
-.swiper-pagination-bullet-active {
-    outline : none !important;
-    outline: 2px solid #00B4B7 !important;
+.swiper-custom-pagination .swiper-pagination-bullet-active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #00B4B7 !important;
 }
