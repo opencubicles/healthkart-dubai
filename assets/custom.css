@@ -17,6 +17,5 @@
   .swiper-pagination-bullets
   .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
 
-border-color: green;
     outline-color: green;
 }
