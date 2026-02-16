@@ -98,7 +98,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "top_bar_color": "scheme-1",
-        "header_color": "scheme-4",
+        "header_color": "scheme-36f94cbf-8af0-4f8b-94b5-1922d6d66ad2",
         "menubar_color": "scheme-1",
         "show_top_bar": true,
         "top_bar_height": "35px|25px",
