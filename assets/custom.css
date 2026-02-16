@@ -24,3 +24,7 @@ border-color: #00B4B7;
 #search input:focus {
     border-color: #00B4B7 !important;
 }
+#cart .m6pn-close,
+#cart .m6pn-close i {
+    color: #00B4B7 !important;
+}
