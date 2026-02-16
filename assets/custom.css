@@ -15,5 +15,6 @@
 }
 .swiper-custom-pagination 
 .swiper-pagination-bullet-active {
+    outline : none !important;
     outline: 2px solid #00B4B7 !important;
 }
