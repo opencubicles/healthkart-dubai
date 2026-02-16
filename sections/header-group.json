@@ -57,6 +57,7 @@
         },
         "f8ee5b63-cdad-4140-9183-2aea32d44591": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p><a href=\"/policies/refund-policy\" title=\"Refund Policy\"><strong>Free exchange</strong></a> of products within 30 days</p>",
             "icon": "default",
@@ -65,6 +66,7 @@
         },
         "655f761a-afea-4320-92ad-c4df9417265c": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>Pickup in <strong>16 stores</strong> international</p>",
             "icon": "default",
@@ -73,6 +75,7 @@
         },
         "7db5eae6-23ed-4bae-85f9-3b91f023c974": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p><strong>Premium brand products</strong> for an affordable price</p>",
             "icon": "default",
