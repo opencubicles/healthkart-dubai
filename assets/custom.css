@@ -13,3 +13,6 @@
 #totop a::before {
     background: #00B4B7 !important;
 }
+.swiper-pagination-bullet-active {
+    border: 2px solid #00B4B7 !important;
+}
