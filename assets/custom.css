@@ -29,8 +29,10 @@ border-color: #00B4B7;
     color: #00B4B7 !important;
 }
 
-#root #header .f8vl *:not(a[class*="overlay-"], button[class*="overlay-"]), #root .m6pn.f8vl *:not(a[class*="overlay-"], button[class*="overlay-"])  {
-     secondary_bg_btn : #00B4B7 !important;
+.overlay-a, .overlay-theme, .m6tx .overlay-theme, #root .l4cl li.link a, #root .l4dr li.active>a, .l4dr li.has-social.toggle>a i, .l4in li.active a, .accordion-a details[open] summary, .n6br a.overlay-theme, .n6br li.strong a, .n6br li a.strong, .m6bx .l4in a
+Specificity: (0,3,3)
+ {
+    color: #00B4B7;
 }
 
 #root #header .f8vl input:focus {
