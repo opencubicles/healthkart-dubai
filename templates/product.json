@@ -190,9 +190,7 @@
         "eeef3269-90c3-44f1-91c4-65f04ff8b23e",
         "f2290434-741b-4731-a534-ad679331e164"
       ],
-      "custom_css": [
-        ".swiper-custom-pagination .swiper-pagination-bullet-active span {border: none !important; box-shadow: none !important; outline: none !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "width": "boxed",
         "show_thumbs_desktop": true,
