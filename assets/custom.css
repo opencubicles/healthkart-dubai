@@ -32,8 +32,8 @@ border-color: #00B4B7;
 #root .m6pn.f8vl label .overlay-theme {
     color: #00B4B7 !important;
 }
-
-.m6pn a[href*="recover"] {
+.m6pn a[href*="recover"],
+.m6pn a[href*="recover"] span {
     color: #00B4B7 !important;
 }
 #root #header .f8vl input:focus {
