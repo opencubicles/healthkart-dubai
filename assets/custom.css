@@ -21,7 +21,6 @@ border-color: #00B4B7;
 .check input:checked~label:before{
  border-color: #00B4B7;   
 }
-#search input,
-#search button {
-    border-color: #00B4B7;
+#search input:focus {
+    border-color: #00B4B7 !important;
 }
