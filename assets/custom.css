@@ -16,6 +16,5 @@
 .l4pr
   .swiper-pagination-bullets
   .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
-
-    outline-color: green;
+border-color: green;
 }
