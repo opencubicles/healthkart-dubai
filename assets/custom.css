@@ -5,5 +5,5 @@
   background: #00b4b7 !important;
 }
 .accordion-a details[open] summary span {
-    color: #FF8914;
+    color: #00b4b7 !important;
 }
