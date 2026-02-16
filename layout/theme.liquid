@@ -236,5 +236,6 @@
     {%- endif -%}
     {%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
     {{ settings.custom_script_for_body }}
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
   </body>
 </html>
