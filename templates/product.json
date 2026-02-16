@@ -191,7 +191,7 @@
         "f2290434-741b-4731-a534-ad679331e164"
       ],
       "custom_css": [
-        ".swiper-pagination-bullet-active.swiper-pagination-bullet-active::after {outline-color: #00b4b7 !important;}"
+        ".swiper-slide-thumb-active {border: 2px solid #00B4B7 !important;}"
       ],
       "settings": {
         "width": "boxed",
