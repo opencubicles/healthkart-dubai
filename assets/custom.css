@@ -39,3 +39,8 @@ border-color: #00B4B7;
 #root #header .f8vl input:focus {
     border-color: #00B4B7 !important;
 }
+.m6pn .overlay-primary {
+  background-color: #00B4B7 !important;
+  border-color: #00B4B7 !important;
+  color: #fff !important;
+}
