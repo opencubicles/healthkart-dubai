@@ -191,7 +191,7 @@
         "f2290434-741b-4731-a534-ad679331e164"
       ],
       "custom_css": [
-        ".swiper-custom-pagination .swiper-pagination-bullet-active::after {outline: none !important;}"
+        ".swiper-custom-pagination .swiper-pagination-bullet-active span {border: 2px solid #00B4B7 !important;}"
       ],
       "settings": {
         "width": "boxed",
