@@ -13,3 +13,10 @@
 #totop a::before {
     background: #00B4B7 !important;
 }
+.l4pr
+  .swiper-pagination-bullets
+  .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+
+border-color: green;
+    outline-color: green;
+}
