@@ -32,8 +32,10 @@ border-color: #00B4B7;
 #root .m6pn.f8vl label .overlay-theme {
     color: #00B4B7 !important;
 }
-#nav-user>ul>li>form a:not(.show) {
+#nav-user>ul>li>form a:not(.show),
+#nav-user>ul>li>form a:not(.show) span {
     color: #00B4B7 !important;
+    text-decoration-color: #00B4B7 !important;
 }
 #root #header .f8vl input:focus {
     border-color: #00B4B7 !important;
