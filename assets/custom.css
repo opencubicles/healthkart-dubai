@@ -10,6 +10,6 @@
 .l4in li.active > a {
     color: #00B4B7 !important;
 }
-#totop a {
+body #totop a {
     background-color: #00B4B7 !important;
 }
