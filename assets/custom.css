@@ -33,3 +33,7 @@ border-color: #00B4B7;
      color: #00B4B7 !important;
        border-color: #00B4B7;
 }
+
+#root #header .f8vl input:focus {
+    border-color: #00B4B7 !important;
+}
