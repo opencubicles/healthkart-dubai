@@ -104,7 +104,7 @@
           "secondary_bg": "#f4f4f4",
           "title_color": "#000000",
           "title_color_gradient": "",
-          "primary_fg": "#ffffff",
+          "primary_fg": "#000000",
           "primary_button_bg": "#ff8914",
           "primary_button_fg": "#ffffff",
           "secondary_button_bg": "#ff8914",
