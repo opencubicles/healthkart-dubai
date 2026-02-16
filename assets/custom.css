@@ -13,6 +13,3 @@
 #totop a::before {
     background: #00B4B7 !important;
 }
-*, *:before, *:after {
-    outline-color: var(--secondary_bg);
-}
