@@ -33,8 +33,7 @@ border-color: #00B4B7;
     color: #00B4B7 !important;
 }
 
-#root #header .f8vl label .overlay-theme,
-#root .m6pn.f8vl label .overlay-theme span .link-underline{
+.m6pn a[href*="recover"] {
     color: #00B4B7 !important;
 }
 #root #header .f8vl input:focus {
