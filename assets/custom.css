@@ -28,3 +28,7 @@ border-color: #00B4B7;
 #cart .m6pn-close i {
     color: #00B4B7 !important;
 }
+fieldset .overlay-primary {
+  background: #00B4B7 !important;
+  border-color: #00B4B7 !important;
+}
