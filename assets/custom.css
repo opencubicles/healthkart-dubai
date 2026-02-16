@@ -4,7 +4,7 @@
 .noUi-connect:before {
   background: #00b4b7 !important;
 }
-.accordion-a details[open] summary span .active {
+.accordion-a details[open] summary span {
     color: #00b4b7 !important;
 }
 .l4in li.active > a {
