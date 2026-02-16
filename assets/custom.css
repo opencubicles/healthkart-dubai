@@ -31,4 +31,5 @@ border-color: #00B4B7;
 
 #root #header .f8vl *:not(a[class*="overlay-"], button[class*="overlay-"]), #root .m6pn.f8vl *:not(a[class*="overlay-"], button[class*="overlay-"])  {
      color: #00B4B7 !important;
+       border-color: #00B4B7;
 }
