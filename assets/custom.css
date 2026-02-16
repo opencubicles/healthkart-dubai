@@ -28,7 +28,8 @@ border-color: #00B4B7;
 #cart .m6pn-close i {
     color: #00B4B7 !important;
 }
-.m6pn.f8vl .overlay-theme {
+#root #header .f8vl label .overlay-theme,
+#root .m6pn.f8vl label .overlay-theme {
     color: #00B4B7 !important;
 }
 
