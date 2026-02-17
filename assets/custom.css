@@ -91,3 +91,7 @@ input[type="checkbox"]:hover + label::before {
 .palette-scheme-3 .l4cn.box a:hover {
   color: #00b4b7 !important;
 }
+button:before, .link-btn a:before, #nav-user>ul>li>a i span:before, #totop a:before
+{
+    background-color: #00b4b7;
+}
