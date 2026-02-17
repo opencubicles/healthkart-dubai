@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "section_grid_yyCXme": {
@@ -21,6 +30,7 @@
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": false,
+            "product_list": [],
             "look_btn_style": "buy_button plain",
             "look_position": "end",
             "show_look_label": false,
@@ -45,6 +55,7 @@
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": false,
+            "product_list": [],
             "look_btn_style": "buy_button plain",
             "look_position": "end",
             "show_look_label": false,
@@ -69,9 +80,10 @@
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": true,
+            "product_list": [],
             "look_btn_style": "buy_button plain",
             "look_position": "end",
-            "show_look_label": true,
+            "show_look_label": false,
             "look_label_text": "Shop the look"
           }
         },
@@ -93,6 +105,7 @@
             "show_overlay_link": true,
             "overlay_url": "",
             "show_look": false,
+            "product_list": [],
             "look_btn_style": "buy_button plain",
             "look_position": "end",
             "show_look_label": false,
@@ -123,11 +136,13 @@
     "1653391228084c834a": {
       "type": "section-collection-list",
       "settings": {
+        "collections": [],
         "image_ratio": "square",
         "fill_images": true,
         "layout": "slider",
         "number_of_items": 8,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Top selling collections</h2>",
         "title_underline_style": "none",
         "show_link": true,
@@ -144,9 +159,11 @@
     "16603001534a9c90c9": {
       "type": "section-featured-products",
       "settings": {
+        "products": [],
         "layout": "slider",
         "number_of_items": 5,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Back in stock this week</h2>",
         "title_underline_style": "none",
         "text": "",
@@ -230,6 +247,8 @@
         "items_layout": "playful-grid",
         "items_width": 2,
         "height": "adapt",
+        "enable_custom_height": false,
+        "custom_height": 300,
         "width": "boxed",
         "space_between": 16,
         "image_zoom": true,
@@ -247,9 +266,11 @@
     "166030001712c7cb2b": {
       "type": "section-featured-products",
       "settings": {
+        "products": [],
         "layout": "slider",
         "number_of_items": 5,
         "text_alignment": "aside",
+        "width": "boxed",
         "title": "<h2>Most sold this week</h2>",
         "title_underline_style": "none",
         "text": "<p>Top 10 most sold this week, next day delivery.</p>",
@@ -334,8 +355,8 @@
       ],
       "settings": {
         "items_width": 3,
-        "width": "boxed",
         "height": "16/9",
+        "width": "boxed",
         "space_between": 16,
         "image_zoom": false,
         "shadow": false,
@@ -353,6 +374,7 @@
         "hotspot_qAjiEa": {
           "type": "hotspot",
           "settings": {
+            "product": "",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
@@ -365,6 +387,7 @@
         "hotspot_gj9tCh": {
           "type": "hotspot",
           "settings": {
+            "product": "",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
@@ -377,6 +400,7 @@
         "hotspot_7Wier6": {
           "type": "hotspot",
           "settings": {
+            "product": "",
             "text_position": "text-start",
             "title": "Image hotspot",
             "text": "<p>Highlight a new collection and share details about products related to this image</p>",
@@ -399,9 +423,10 @@
         "hotspot_color_palette": "primary",
         "layout": "right",
         "height": "1/1",
-        "width": "boxed",
         "enable_custom_height": true,
         "custom_height": 420,
+        "width_banner": "boxed",
+        "width": "boxed",
         "text_position": "align-start text-start",
         "title": "<h1>The perfect gifts</h1>",
         "title_underline_style": "none",
@@ -421,7 +446,9 @@
       "settings": {
         "blog": "news",
         "number_of_items": 5,
+        "big_first_item": false,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Our latest blog posts</h2>",
         "title_underline_style": "none",
         "show_link": true,
@@ -470,6 +497,7 @@
       ],
       "settings": {
         "height": "32/9",
+        "width_banner": "boxed",
         "width": "boxed",
         "autoplay": false,
         "autoplay_seconds": 3,
@@ -486,36 +514,42 @@
         "165486547011270c54-0": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": ""
           }
         },
         "165486547011270c54-1": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": "/"
           }
         },
         "165486547011270c54-2": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": ""
           }
         },
         "165486547011270c54-3": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": ""
           }
         },
         "165486547011270c54-4": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": ""
           }
         },
         "165486547011270c54-5": {
           "type": "logo",
           "settings": {
+            "image_svg": "",
             "link": ""
           }
         }
@@ -531,6 +565,7 @@
       "settings": {
         "number_of_items": 6,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "",
         "title_underline_style": "none",
         "show_link": true,
@@ -547,6 +582,7 @@
       "settings": {
         "number_of_items": 5,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Watched by you:</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": false,
@@ -593,6 +629,8 @@
         "autoplay": true,
         "autoplay_seconds": 3,
         "show_arrows": true,
+        "width_banner": "boxed",
+        "width": "wide",
         "mobile_layout": "slider",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
