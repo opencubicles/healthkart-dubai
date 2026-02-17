@@ -40,3 +40,6 @@ border-color: #00B4B7;
 #root #header .f8vl input:focus {
     border-color: #00B4B7 !important;
 }
+#customer_login button.overlay-primary::before {
+  background-color: #00b4b7 !important;
+}
