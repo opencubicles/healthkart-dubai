@@ -51,6 +51,10 @@ input:focus {
   border-color: #00b4b7 !important;
   box-shadow: 0 0 0 1px #00b4b7 !important;
 }
-.remove-all {
-  color: #00b4b7;
+li.strong .remove-all {
+  color: #00b4b7 !important;
+}
+
+li.strong .remove-all:hover {
+  color: #00b4b7 !important;
 }
