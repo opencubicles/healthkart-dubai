@@ -44,5 +44,5 @@ border-color: #00B4B7;
   background-color: #00b4b7 !important;
 }
 #customer_login button.overlay-primary:hover::before {
-  background-color: #00989a !important;
+  background-color: #00b4b7 !important;
 }
