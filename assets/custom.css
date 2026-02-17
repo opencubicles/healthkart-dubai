@@ -65,3 +65,6 @@ input[type="checkbox"]:checked + label::after {
   color: #ffffff !important;   /* tick color */
   border-color: #ffffff !important; /* if tick made using borders */
 }
+input[type="checkbox"]:hover + label::before {
+  border-color: #00b4b7 !important;
+}
