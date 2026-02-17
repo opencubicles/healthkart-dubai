@@ -73,6 +73,9 @@ input[type="checkbox"]:hover + label::before {
 .current-filters a {
   color: #00b4b7 !important;
 }
+.f8fl header ul a:before, .f8fl header ul label:before{
+    color: #00b4b7;
+}
 #shopify-section-footer .l4cn li a:hover {
   color: #00b4b7 !important;
 }
