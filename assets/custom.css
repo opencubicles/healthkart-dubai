@@ -44,8 +44,10 @@ border-color: #00B4B7;
   background-color: #00b4b7 !important;
 }
 nav.n6as ul li a:hover {
+  color: #00b4b7 !important;  
+}
+.n6br ol li a:hover {
   color: #00b4b7 !important;
-    cursor: pointer;
 }
 .current-filters a:hover {
   color: #00b4b7 !important;
