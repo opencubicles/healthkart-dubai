@@ -46,6 +46,8 @@ border-color: #00B4B7;
 nav.n6as ul li a:hover {
   color: #00b4b7 !important;
 }
-fieldset .noUi-connect {
-  background-color: #00b4b7 !important;
+fieldset:hover {
+  background-color: #e6f9f9;
+  border-color: #00b4b7;
+  transition: 0.3s ease;
 }
