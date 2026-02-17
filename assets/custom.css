@@ -79,3 +79,7 @@ input[type="checkbox"]:hover + label::before {
 #shopify-section-footer .l4cn li a:hover {
   color: #00b4b7 !important;
 }
+
+#message:hover {
+  border-color: #00b4b7 !important;
+}
