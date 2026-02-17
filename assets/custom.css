@@ -46,3 +46,6 @@ border-color: #00B4B7;
 nav.n6as ul li a:hover {
   color: #00b4b7 !important;
 }
+fieldset a:hover {
+  color: #00b4b7 !important;
+}
