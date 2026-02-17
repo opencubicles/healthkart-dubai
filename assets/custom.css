@@ -73,7 +73,7 @@ input[type="checkbox"]:hover + label::before {
 .current-filters a {
   color: #00b4b7 !important;
 }
-.active-facets__button svg,
-.active-facets__button svg path {
-  stroke: #00b4b7 !important;
+.desktop-only label span::after {
+  color: #00b4b7 !important;
+  border-color: #00b4b7 !important;
 }
