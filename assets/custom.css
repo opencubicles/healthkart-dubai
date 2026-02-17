@@ -49,3 +49,7 @@ nav.n6as ul li a:hover {
 .current-filters a:hover {
   color: #00b4b7 !important;
 }
+input:focus {
+  border-color: #00b4b7 !important;
+  box-shadow: 0 0 0 1px #00b4b7 !important;
+}
