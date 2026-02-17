@@ -95,3 +95,7 @@ button:before, .link-btn a:before, #nav-user>ul>li>a i span:before, #totop a:bef
 {
     background-color: #00b4b7;
 }
+.overlay-a, .overlay-theme, .m6tx .overlay-theme, #root .l4cl li.link a, #root .l4dr li.active>a, .l4dr li.has-social.toggle>a i, .l4in li.active a, .accordion-a details[open] summary, .n6br a.overlay-theme, .n6br li.strong a, .n6br li a.strong, .m6bx .l4in a
+{
+  color: #00b4b7;   
+}
