@@ -73,7 +73,6 @@ input[type="checkbox"]:hover + label::before {
 .current-filters a {
   color: #00b4b7 !important;
 }
-.desktop-only label span::after {
+#shopify-section-footer .l4cn li a:hover {
   color: #00b4b7 !important;
-  border-color: #00b4b7 !important;
 }
