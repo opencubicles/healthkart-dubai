@@ -88,3 +88,6 @@ input[type="checkbox"]:hover + label::before {
   border-color: #00b4b7 !important;
   color: #fff !important;
 }
+.palette-scheme-3 .l4cn.box a:hover {
+  color: #00b4b7 !important;
+}
