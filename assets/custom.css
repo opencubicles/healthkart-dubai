@@ -46,6 +46,8 @@ border-color: #00B4B7;
 nav.n6as ul li a:hover {
   color: #00b4b7 !important;
 }
-fieldset a:hover::before {
-  background-color: #00b4b7 !important;
+.collection-sidebar fieldset a:hover,
+.collection-sidebar fieldset .header-toggle:hover,
+.collection-sidebar fieldset ul.check li label:hover a {
+  color: #00b4b7 !important;
 }
