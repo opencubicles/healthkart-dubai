@@ -68,3 +68,22 @@ input[type="checkbox"]:checked + label::after {
 input[type="checkbox"]:hover + label::before {
   border-color: #00b4b7 !important;
 }
+/* Remove all filters text */
+.remove-all,
+.current-filters a {
+  color: #00b4b7 !important;
+}
+
+/* Hover color */
+.remove-all:hover,
+.current-filters a:hover {
+  color: #009fa2 !important; /* slightly darker hover */
+}
+
+/* Cross (X) icon */
+.current-filters svg,
+.current-filters .icon-close,
+.current-filters .icon-remove {
+  fill: #00b4b7 !important;
+  color: #00b4b7 !important;
+}
