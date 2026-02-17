@@ -99,3 +99,6 @@ button:before, .link-btn a:before, #nav-user>ul>li>a i span:before, #totop a:bef
 {
   color: #00b4b7;   
 }
+#shopify-section-footer h5 a[href="/search"]:hover {
+  color: #00b4b7 !important;
+}
