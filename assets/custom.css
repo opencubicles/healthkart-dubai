@@ -43,8 +43,6 @@ border-color: #00B4B7;
 #customer_login button.overlay-primary::before {
   background-color: #00b4b7 !important;
 }
-#customer_login button.overlay-primary:hover::before,
-#customer_login button.overlay-primary:focus::before {
+#customer_login button.overlay-primary:not(.disabled):hover::before {
   background-color: #00989a !important;
-  opacity: 1 !important;
 }
