@@ -43,3 +43,6 @@ border-color: #00B4B7;
 #customer_login button.overlay-primary::before {
   background-color: #00b4b7 !important;
 }
+nav.n6as ul li a:hover {
+  color: #00b4b7 !important;
+}
