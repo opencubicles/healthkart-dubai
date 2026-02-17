@@ -56,6 +56,8 @@ input:focus {
   border-color: #00b4b7 !important;
   box-shadow: 0 0 0 1px #00b4b7 !important;
 }
-fieldset label strong::after {
-  background-color: #00b4b7;
+.current-filters .icon-close,
+.current-filters .icon-remove,
+.current-filters a:hover {
+  color: #00b4b7 !important;
 }
