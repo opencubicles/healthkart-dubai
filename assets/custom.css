@@ -83,3 +83,8 @@ input[type="checkbox"]:hover + label::before {
 #message:hover {
   border-color: #00b4b7 !important;
 }
+#shopify-section-template--19617399308332__section-contact-form button {
+  background: #00b4b7 !important;
+  border-color: #00b4b7 !important;
+  color: #fff !important;
+}
