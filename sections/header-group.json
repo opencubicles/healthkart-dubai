@@ -89,6 +89,9 @@
         "655f761a-afea-4320-92ad-c4df9417265c",
         "7db5eae6-23ed-4bae-85f9-3b91f023c974"
       ],
+      "custom_css": [
+        "#nav-user li:not(.link-btn) {--custom_top_main_link_bg: #FF8914;}"
+      ],
       "settings": {
         "layout": "layout_2",
         "width": 1280,
