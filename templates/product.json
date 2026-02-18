@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -106,8 +115,64 @@
           "settings": {
             "enable_tab": true,
             "collapse": true,
+            "title_size": "h2",
+            "title": "Additonal info",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 30,
+            "text": "<p>{{ product.metafields.custom.additonal_info | metafield_tag }}</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "content_qtVcBY": {
+          "type": "content",
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title_size": "h2",
+            "title": "General Traits",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 30,
+            "text": "<p>{{ product.metafields.custom.general_traits | metafield_tag }}</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "content_XL6CEn": {
+          "type": "content",
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title_size": "h2",
+            "title": "Key Benefits",
+            "icon": "none",
+            "header_image_svg": "",
+            "header_image_width": 30,
+            "text": "<p>{{ product.metafields.custom.key_benefits | metafield_tag }}</p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "content_UHrWj3": {
+          "type": "content",
+          "settings": {
+            "enable_tab": true,
+            "collapse": true,
+            "title_size": "h2",
             "title": "Pay whenever you want",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 30,
             "text": "<p>Easily pay within 30 days after you have received your package. <br/><a href=\"/policies/shipping-policy\" title=\"Shipping Policy\"><strong>Read more</strong></a></p>",
             "page": "",
@@ -122,8 +187,10 @@
           "settings": {
             "enable_tab": true,
             "collapse": true,
+            "title_size": "h2",
             "title": "Shipping and returns",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "text": "",
             "page": "shipping-info",
@@ -140,6 +207,7 @@
             "collapse": true,
             "title": "Pairs well with",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "layout": "grid",
             "number_of_items": 3,
@@ -173,19 +241,27 @@
         "usp_1",
         "usp_2",
         "2e2d451c-7968-4d6b-a516-6f6e842c92ee",
+        "content_qtVcBY",
+        "content_XL6CEn",
+        "content_UHrWj3",
         "eeef3269-90c3-44f1-91c4-65f04ff8b23e",
         "f2290434-741b-4731-a534-ad679331e164"
       ],
       "settings": {
+        "width": "boxed",
         "show_thumbs_desktop": true,
         "show_thumbs_mobile": false,
         "images_layout": "aside",
         "show_product_description": true,
+        "description_title_size": "h2",
         "product_description_enable_read_more": false,
+        "pros_cons_title_size": "h2",
         "pros": "<p>Sustainably produced, Ideal for everyday use</p>",
         "cons": "<p>May discolor in direct sunlight</p>",
+        "specs_title_size": "h2",
         "specifications": "<p>Weight: 200gr, Usage: Indoor & outdoor</p>",
-        "product_description_mobile_collapse": false
+        "product_description_mobile_collapse": false,
+        "mobile_tabs_title_size": "h4"
       }
     },
     "recommendations": {
@@ -194,6 +270,7 @@
         "recommended_products_qty": 6,
         "number_of_items": 5,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>You may also like</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": true,
@@ -204,6 +281,7 @@
         "enable_quick_buy_compact": false,
         "spacing_desktop": 50,
         "spacing_mobile": 0,
+        "fix_zindex": 0,
         "mobile_collapse": false
       }
     },
@@ -247,8 +325,10 @@
         "color_palette": "scheme-6",
         "layout": "image-right",
         "text_position": "text-start",
+        "width": "boxed",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "1655736197e3f3d938": {
@@ -259,6 +339,7 @@
           "settings": {
             "faq_question": "When will my order be delivered?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>We ship worldwide. Your order will be packaged really carefully and delivered wherever you want. Delivery takes between 2-4 business days. You will receive an e-mail after ordering with more information about the delivery.</p>",
             "page": "",
@@ -273,6 +354,7 @@
           "settings": {
             "faq_question": "Can I return my product?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
             "page": "",
@@ -287,6 +369,7 @@
           "settings": {
             "faq_question": "What can I do if my item (or part of it) is damaged?",
             "icon": "none",
+            "header_image_svg": "",
             "header_image_width": 25,
             "faq_answer": "<p>We work hard to deliver your items without damage. Orders can be returned or exchanged within 30 days of receiving the parcel, providing they are in original resalable condition.</p>",
             "page": "",
@@ -305,20 +388,24 @@
       "settings": {
         "alignment": "left",
         "compact": false,
+        "width": "boxed",
         "title": "<h2>Returns & Delivery</h2>",
         "title_underline_style": "none",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "1655199380bd7f8fd3": {
       "type": "section-collection-list",
       "settings": {
+        "collections": [],
         "image_ratio": "square",
         "fill_images": true,
         "layout": "slider",
         "number_of_items": 6,
         "text_alignment": "start",
+        "width": "boxed",
         "title": "<h2>Collections with similar products</h2>",
         "title_underline_style": "none",
         "show_link": false,
@@ -328,7 +415,8 @@
         "collection_title_size": "p",
         "mobile_layout": "slider",
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     },
     "recently-viewed": {
@@ -336,16 +424,18 @@
       "settings": {
         "number_of_items": 5,
         "text_alignment": "left",
+        "width": "boxed",
         "title": "<h2>Recently viewed products</h2>",
         "title_underline_style": "none",
         "enable_quick_buy_desktop": true,
-        "enable_quick_buy_drawer": false,
         "enable_quick_buy_mobile": true,
+        "enable_quick_buy_drawer": false,
         "enable_quick_buy_qty_selector": true,
         "enable_color_picker": false,
         "enable_quick_buy_compact": false,
         "spacing_desktop": 50,
-        "spacing_mobile": 30
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
