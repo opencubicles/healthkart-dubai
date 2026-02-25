@@ -170,7 +170,7 @@
         "pros": "",
         "cons": "",
         "specs_title_size": "h2",
-        "specifications": "<p>Weight: 200gr, Usage: Indoor & outdoor</p>",
+        "specifications": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
         "product_description_mobile_collapse": false,
         "mobile_tabs_title_size": "h4"
       }
