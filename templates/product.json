@@ -86,6 +86,7 @@
         },
         "e55f9825-3e08-4f90-bd42-9d336323be89": {
           "type": "trustbadge",
+          "disabled": true,
           "settings": {}
         },
         "e9431daf-3b99-40f6-89ff-dab164cda2ff": {
@@ -96,16 +97,19 @@
         },
         "shipping_timer": {
           "type": "shipping_timer",
+          "disabled": true,
           "settings": {}
         },
         "usp_1": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p><strong>Free shipping </strong>on all orders above 50,00</p>"
           }
         },
         "usp_2": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": "<p>No <strong>hassle returns, </strong>30 days return</p>"
           }
@@ -166,6 +170,7 @@
         },
         "content_UHrWj3": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "enable_tab": true,
             "collapse": true,
@@ -202,6 +207,7 @@
         },
         "f2290434-741b-4731-a534-ad679331e164": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "enable_tab": true,
             "collapse": true,
