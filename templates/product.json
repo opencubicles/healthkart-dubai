@@ -84,70 +84,10 @@
             "height": 20
           }
         },
-        "e55f9825-3e08-4f90-bd42-9d336323be89": {
-          "type": "trustbadge",
-          "disabled": true,
-          "settings": {}
-        },
         "e9431daf-3b99-40f6-89ff-dab164cda2ff": {
           "type": "spacer",
           "settings": {
             "height": 15
-          }
-        },
-        "shipping_timer": {
-          "type": "shipping_timer",
-          "disabled": true,
-          "settings": {}
-        },
-        "usp_1": {
-          "type": "usp",
-          "disabled": true,
-          "settings": {
-            "usp": "<p><strong>Free shipping </strong>on all orders above 50,00</p>"
-          }
-        },
-        "usp_2": {
-          "type": "usp",
-          "disabled": true,
-          "settings": {
-            "usp": "<p>No <strong>hassle returns, </strong>30 days return</p>"
-          }
-        },
-        "2e2d451c-7968-4d6b-a516-6f6e842c92ee": {
-          "type": "content",
-          "settings": {
-            "enable_tab": true,
-            "collapse": true,
-            "title_size": "h2",
-            "title": "Additonal info",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 30,
-            "text": "<p>{{ product.metafields.custom.additonal_info | metafield_tag }}</p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "content_qtVcBY": {
-          "type": "content",
-          "settings": {
-            "enable_tab": true,
-            "collapse": true,
-            "title_size": "h2",
-            "title": "General Traits",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 30,
-            "text": "<p>{{ product.metafields.custom.general_traits | metafield_tag }}</p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
           }
         },
         "content_XL6CEn": {
@@ -168,18 +108,17 @@
             "show_contact_form": false
           }
         },
-        "content_UHrWj3": {
+        "content_qtVcBY": {
           "type": "content",
-          "disabled": true,
           "settings": {
             "enable_tab": true,
             "collapse": true,
             "title_size": "h2",
-            "title": "Pay whenever you want",
+            "title": "Ingredients",
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 30,
-            "text": "<p>Easily pay within 30 days after you have received your package. <br/><a href=\"/policies/shipping-policy\" title=\"Shipping Policy\"><strong>Read more</strong></a></p>",
+            "text": "",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -187,49 +126,22 @@
             "show_contact_form": false
           }
         },
-        "eeef3269-90c3-44f1-91c4-65f04ff8b23e": {
+        "2e2d451c-7968-4d6b-a516-6f6e842c92ee": {
           "type": "content",
           "settings": {
             "enable_tab": true,
             "collapse": true,
             "title_size": "h2",
-            "title": "Shipping and returns",
+            "title": "Additonal info",
             "icon": "none",
             "header_image_svg": "",
-            "header_image_width": 25,
-            "text": "",
-            "page": "shipping-info",
+            "header_image_width": 30,
+            "text": "<p>{{ product.metafields.custom.additonal_info | metafield_tag }}</p>",
+            "page": "",
             "image_width": 465,
             "liquid": "",
             "html": "",
             "show_contact_form": false
-          }
-        },
-        "f2290434-741b-4731-a534-ad679331e164": {
-          "type": "complementary_products",
-          "disabled": true,
-          "settings": {
-            "enable_tab": true,
-            "collapse": true,
-            "title": "Pairs well with",
-            "icon": "none",
-            "header_image_svg": "",
-            "header_image_width": 25,
-            "layout": "grid",
-            "number_of_items": 3,
-            "enable_quick_buy_desktop": true,
-            "enable_quick_buy_mobile": true,
-            "enable_quick_buy_drawer": true,
-            "enable_quick_buy_qty_selector": false,
-            "enable_color_picker": false,
-            "enable_quick_buy_compact": false,
-            "products_show_image": true,
-            "products_show_labels": false,
-            "products_show_vendor": false,
-            "products_show_title": true,
-            "products_show_rating": false,
-            "products_show_price": true,
-            "products_show_stock": false
           }
         }
       },
@@ -241,17 +153,10 @@
         "price",
         "buy_button",
         "beafbaf1-a0af-4326-b4de-6e78c472249c",
-        "e55f9825-3e08-4f90-bd42-9d336323be89",
         "e9431daf-3b99-40f6-89ff-dab164cda2ff",
-        "shipping_timer",
-        "usp_1",
-        "usp_2",
-        "2e2d451c-7968-4d6b-a516-6f6e842c92ee",
-        "content_qtVcBY",
         "content_XL6CEn",
-        "content_UHrWj3",
-        "eeef3269-90c3-44f1-91c4-65f04ff8b23e",
-        "f2290434-741b-4731-a534-ad679331e164"
+        "content_qtVcBY",
+        "2e2d451c-7968-4d6b-a516-6f6e842c92ee"
       ],
       "settings": {
         "width": "boxed",
