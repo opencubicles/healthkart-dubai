@@ -118,7 +118,7 @@
             "icon": "none",
             "header_image_svg": "",
             "header_image_width": 30,
-            "text": "",
+            "text": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
