@@ -391,6 +391,7 @@
         "1655736197d4a3dd1a-1",
         "1655736197d4a3dd1a-2"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "left",
         "compact": false,
@@ -404,6 +405,7 @@
     },
     "1655199380bd7f8fd3": {
       "type": "section-collection-list",
+      "disabled": true,
       "settings": {
         "collections": [],
         "image_ratio": "square",
