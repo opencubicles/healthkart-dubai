@@ -243,6 +243,7 @@
         "1654865266c7ee8f93-1",
         "308e5b21-d3d8-4fdc-bf57-625316fb3592"
       ],
+      "disabled": true,
       "settings": {
         "items_layout": "playful-grid",
         "items_width": 2,
