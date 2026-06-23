@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -41,16 +50,22 @@
         "423fb7f6-2c97-4420-8211-d45378349d2a"
       ],
       "settings": {
+        "width": "boxed",
         "pagination_qty": 24,
         "pagination_type": "button",
         "show_amount_of_products_in_collection": true,
+        "show_collection_image": false,
+        "enable_grid_list_toggle": true,
         "productview_type": "grid",
         "products_per_row": 3,
-        "show_collection_image": false,
-        "enable_filters": true,
+        "enable_secondary_products_per_row": false,
+        "secondary_products_per_row": 4,
+        "default_grid": "primary",
+        "enable_filters": false,
         "enable_menu": true,
         "enable_collections": true,
         "filters_menu_alignment": "left",
+        "filter_menu": "main-menu",
         "collections_menu": [],
         "filter_sticky": true,
         "filters_show_more_limit": 7,
@@ -63,6 +78,7 @@
         "enable_quick_buy_qty_selector": true,
         "enable_color_picker": false,
         "enable_quick_buy_compact": false,
+        "enable_secondary_products_per_row_mobile": false,
         "products_per_row_mobile": "2",
         "filter_mobile_sticky": true
       }
