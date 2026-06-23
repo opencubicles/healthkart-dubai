@@ -67,6 +67,7 @@
         "image_zrQRwD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/1.webp",
             "overlay_opacity": 0,
             "color_palette": "scheme-2",
             "text_position": "text-start",
@@ -74,19 +75,46 @@
             "rows": 2,
             "title": "",
             "title_underline_style": "gradient",
-            "text": "<h4>New in</h4><h1>Fashion</h1>",
-            "show_link": true,
-            "link_text": "Shop now",
+            "text": "",
+            "show_link": false,
+            "link_text": "",
             "link_url": "/",
             "button_style": "secondary plain",
-            "show_overlay_link": true,
+            "show_overlay_link": false,
             "overlay_url": "",
             "show_look": true,
             "product_list": [],
             "look_btn_style": "buy_button plain",
             "look_position": "end",
             "show_look_label": false,
-            "look_label_text": "Shop the look"
+            "look_label_text": "Shop the look",
+            "image_mobile": "shopify://shop_images/3.webp"
+          }
+        },
+        "image_ibwhgx": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "scheme-1",
+            "text_position": "text-center",
+            "cols": 1,
+            "rows": 1,
+            "title": "<h2>Image banner</h2>",
+            "title_underline_style": "none",
+            "text": "",
+            "show_link": true,
+            "link_text": "Button",
+            "link_url": "",
+            "button_style": "primary plain",
+            "show_overlay_link": true,
+            "overlay_url": "",
+            "show_look": false,
+            "product_list": [],
+            "look_btn_style": "buy_button plain",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
           }
         },
         "image_Mc883t": {
@@ -120,6 +148,7 @@
         "image_UwVfdj",
         "image_wQVVFN",
         "image_zrQRwD",
+        "image_ibwhgx",
         "image_Mc883t"
       ],
       "settings": {
