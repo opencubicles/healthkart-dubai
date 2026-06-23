@@ -451,6 +451,7 @@
         "hotspot_7Wier6"
       ],
       "settings": {
+        "image": "shopify://shop_images/azizi_1.jpg",
         "overlay_opacity": 0,
         "color_palette": "scheme-6",
         "hotspot_height": 24,
@@ -464,12 +465,87 @@
         "text_position": "align-start text-start",
         "title": "<p><strong>Location</strong> → Azizi Riviera- Retail shop no. 12, Azizi Riviera 15, Dubai, UAE</p>",
         "title_underline_style": "none",
-        "text": "<ul><li>Contact details → Landline: +971 428 54701 &lt;br&gt;     Mobile: +971 50 518 1698<br/><br/></li></ul><p>                           </p>",
+        "text": "<p><strong>Contact details</strong> → Landline: +971 428 54701 </p><p>       Mobile: +971 50 518 1698<br/><br/></p><p>                           </p>",
         "show_link": true,
         "link_text": "Shop now",
         "link_url": "/",
         "button_style": "secondary plain",
         "height_mobile": "adapt",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_hotspots_fkLUTX": {
+      "type": "section-image-hotspots",
+      "blocks": {
+        "hotspot_w69DEh": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 70,
+            "position_top": 20,
+            "position_left_mobile": 70,
+            "position_top_mobile": 20
+          }
+        },
+        "hotspot_UWCanU": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 30,
+            "position_top": 50,
+            "position_left_mobile": 30,
+            "position_top_mobile": 50
+          }
+        },
+        "hotspot_Bwe9Pf": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "text_position": "text-start",
+            "title": "Image hotspot",
+            "text": "<p>Highlight a new collection and share details about products related to this image</p>",
+            "position_left": 50,
+            "position_top": 70,
+            "position_left_mobile": 50,
+            "position_top_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_w69DEh",
+        "hotspot_UWCanU",
+        "hotspot_Bwe9Pf"
+      ],
+      "name": "t:sections.image_hotspots.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/oud_metha_1.jpg",
+        "overlay_opacity": 0,
+        "color_palette": "scheme-6",
+        "hotspot_height": 24,
+        "hotspot_color_palette": "primary",
+        "layout": "right",
+        "height": "1/1",
+        "enable_custom_height": true,
+        "custom_height": 420,
+        "width_banner": "boxed",
+        "width": "boxed",
+        "text_position": "align-start text-start",
+        "title": "<p><strong>Location</strong> → Oud Metha- Shop no. 27, plot no. 319-310, AL Nasr central, Oud Metha, Dubai, UAE</p>",
+        "title_underline_style": "none",
+        "text": "<p>Contact details → Landline: +971 4355 1193</p><p>   Mobile: +971 50 497 6185 </p>",
+        "show_link": true,
+        "link_text": "Shop now",
+        "link_url": "/",
+        "button_style": "secondary plain",
+        "height_mobile": "1/1",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -680,6 +756,7 @@
     "166030001712c7cb2b",
     "16620576959f001826",
     "section_image_hotspots_qffPmj",
+    "section_image_hotspots_fkLUTX",
     "1653468546493c13a2",
     "section_slideshow_bKaRxG",
     "16548654705529ee49",
