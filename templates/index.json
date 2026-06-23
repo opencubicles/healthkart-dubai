@@ -554,6 +554,7 @@
     },
     "1653468546493c13a2": {
       "type": "section-blog-posts",
+      "disabled": true,
       "settings": {
         "blog": "news",
         "number_of_items": 5,
@@ -606,6 +607,7 @@
       "block_order": [
         "slide_etkUYp"
       ],
+      "disabled": true,
       "settings": {
         "height": "32/9",
         "width_banner": "boxed",
